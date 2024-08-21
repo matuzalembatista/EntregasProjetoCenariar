@@ -32,12 +32,7 @@
     margin-left: 20px;
     font-size: 22px;
     text-align: center; 
-
+}
 .menu a:hover {
   text-decoration: underline;
-}
-
-/* Adiciona um padding superior ao conteúdo abaixo do header */
-body {
-  padding-top: 70px; /* Ajuste de acordo com a altura do header */
 }

@@ -5,10 +5,6 @@ const Resumo = () => {
   return (
     <div className="container">
       <div className="left">
-        <br />
-        <br />
-        <br />
-        <br />
         <p className="left-text">
           Um espaço instagramável para registrar fotos memoráveis
         </p>

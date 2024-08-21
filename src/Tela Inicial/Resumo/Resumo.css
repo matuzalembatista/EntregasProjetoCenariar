@@ -4,7 +4,7 @@
 }
 
 .left {
-  width: 30%;
+  width: 33%;
   height: 300px;
   position: relative;
   top: -200px;
@@ -17,12 +17,13 @@
 }
 
 
-
-
 .left-text {
-  font-size: 40px;
+  font-size: 47px;
+  font-weight: 400;
   margin: 0; 
   padding-left: 100px;
+  padding-top: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
@@ -34,5 +35,8 @@
 
 .right-texto{
     text-align: center;
-    font-weight: 300;
+    color: rgb(78, 78, 78);
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2%;
 }
