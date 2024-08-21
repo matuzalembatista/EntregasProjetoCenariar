@@ -1,0 +1,45 @@
+.header {
+  padding: 10px 20px;
+  position: fixed; /* Fixa o header no topo */
+  top: 0; /* Posiciona no topo */
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Garante que o header fique sobre outros elementos */
+  background-color:transparent /* Define uma cor de fundo para o header */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil ao header */
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 20%;
+  margin-top: -30px;
+  margin-bottom: -30px;
+
+}
+
+.menu a {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 150px; /* Aumenta a largura dos links no menu */
+    padding: 10px 15px; /* Aumenta o padding interno */
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 22px;
+    text-align: center; /* Centraliza o texto dentro do link */
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* Adiciona um padding superior ao conteúdo abaixo do header */
+body {
+  padding-top: 70px; /* Ajuste de acordo com a altura do header */
+}

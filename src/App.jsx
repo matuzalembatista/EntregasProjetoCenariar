@@ -1,8 +1,9 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Header from './Tela Inicial/header'
+import Header from './Tela Inicial/Header/Header';
+import ShowImgInicial from './Tela Inicial/Imagem-Inicial/imgInicial'; // Caminho ajustado
+import Resumo from './Tela Inicial/Resumo/Resumo';
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +11,8 @@ function App() {
   return (
     <>
       <Header />
+      <ShowImgInicial />
+      <Resumo />
     </>
   )
 }
