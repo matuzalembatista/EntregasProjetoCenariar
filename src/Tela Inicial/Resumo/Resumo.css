@@ -1,28 +1,38 @@
 .container {
-    display: flex;
-    position: relative;
-  }
-  
-  .left {
-    width: 35%;
-    height: 500px;
-    position: relative;
-    top: -200px;
-    left: -50px;
-    background-color: #dfdfdf; /* Cor de fundo opcional */
-    border-radius: 50%; /* Torna a div arredondada */
-    padding: 20px; /* Espaço interno opcional */
-    box-sizing: border-box; /* Inclui padding e border na largura total */
-    text-align: center; /* Centraliza o texto dentro da div */
-  }
-  
-  .text {
-    font-size: 40px;
-    margin: 0; /* Remove margens padrão do <p> */
-  }
-  
-  .right {
-    flex: 1; /* Faz a div da direita ocupar o restante do espaço disponível */
-    padding: 20px; /* Espaço interno opcional */
-  }
-  
+  display: flex;
+  position: relative;
+}
+
+.left {
+  width: 30%;
+  height: 300px;
+  position: relative;
+  top: -200px;
+  left: -50px;
+  background-color: #ffffff; 
+  border-radius: 500px 800px 10px;
+  padding: 20px; 
+  box-sizing: border-box;
+  text-align: left; 
+}
+
+
+
+
+.left-text {
+  font-size: 40px;
+  margin: 0; 
+  padding-left: 100px;
+
+}
+
+.right {
+  flex: 1; 
+  padding: 20px;
+}
+
+
+.right-texto{
+    text-align: center;
+    font-weight: 300;
+}
